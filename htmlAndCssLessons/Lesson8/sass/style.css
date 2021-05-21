@@ -1,0 +1,22 @@
+.container {
+  width: 50%;
+  height: 100vh;
+  background-color: rosybrown;
+}
+
+.container:hover .box {
+  -webkit-transform: translate(100px);
+          transform: translate(100px);
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+/*# sourceMappingURL=style.css.map */

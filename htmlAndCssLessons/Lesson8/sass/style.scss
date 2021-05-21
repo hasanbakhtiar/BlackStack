@@ -1,0 +1,34 @@
+.container{
+    width: 50%;
+    height: 100vh;
+    background-color: rosybrown;
+    &:hover{
+        .box{
+            transform: translate(100px);
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+        transition-duration: 1s;
+        // transition-delay: 5s;
+        
+    }
+}
+
+
+// Pure CSS
+// .container:hover .box{
+//     transform: translate(100px);
+//     width: 200px;
+//     height: 200px;
+//     background-color: red;
+// }
+
+// .box:hover{
+//     background-color: red;
+// }
