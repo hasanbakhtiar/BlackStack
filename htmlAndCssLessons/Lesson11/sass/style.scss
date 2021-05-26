@@ -1,0 +1,72 @@
+@import 'reset';
+
+// .main-con {
+//     position: relative;
+
+//     width: 100%;
+//     height: 400px;
+//     background-color: green;
+
+//     .container {
+//         position: absolute;
+//         bottom: 0px;
+//         margin: 10px;
+//         width: 90%;
+//         height: 300px;
+//         background-color: black;
+
+//         .box {
+
+
+//             width: 100px;
+//             height: 100px;
+//             background-color: red;
+//         }
+//     }
+// }
+
+body{
+    height: 200vh;
+}
+header {
+    position: sticky;
+    top: 10px;
+z-index: 2;
+
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-content: start;
+    justify-content: center;
+
+    nav {
+        height: 100px;
+        width: 90%;
+        background-color: blanchedalmond;
+
+        ul {
+
+            width: auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            li {
+                a {
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: rgb(179, 176, 3);
+                }
+            }
+
+
+        }
+    }
+}
+
+section{
+    position: relative;
+    z-index: 1;
+}

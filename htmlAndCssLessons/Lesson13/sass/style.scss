@@ -1,0 +1,21 @@
+@import 'reset';
+.box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 212, 219);
+    // animation-name: elosetdayi;
+    // animation-duration: 2s;
+    // animation-iteration-count: infinite;
+    animation: myanimation 5s infinite;
+}
+
+@keyframes  myanimation{
+    // from{left:0px}
+    // to{left:300px}
+    0%{left:0px;top:0px;background-color: black;}
+    25%{left:300px;top:0px;background-color: rgb(55, 194, 0);}
+    50%{left:300px;top:300px;background-color: rgb(111, 0, 255);}
+    75%{left:0px;top:300px;background-color: rgb(255, 0, 149);}
+    100%{left:0px;top:0px;background-color: rgb(255, 0, 55);}
+}
