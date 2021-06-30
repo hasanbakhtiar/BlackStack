@@ -1,9 +1,9 @@
 // 1.Dəyişkən adları mənalı və anlaşıqlı olmalıdır.
-// 2.Dəyişkən adlarını yazarkən İngilis əlifbasından başqa əlifadan istifadə etmək qadağandır.
+// 2.Dəyişkən adlarını yazarkən İngilis əlifbasından başqa əlifba istifadə etmək qadağandır.
 // 3.Dəyişkən adları _ (alt xətt) ilə başlaya bilər.
 // 4.Dəyişkən adları $(dollar) işarəsi ilə başlaya bilər.
-// 5.Dəyişkən adları heç bir zaman rəqəm ilə başlaya bilməz.Amma ilk hərfdə sonra istifadə edə bilərik.
-// 6.Dəyişkən adları böyük kiçik hərfləri anlayır.
+// 5.Dəyişkən adları heç bir zaman rəqəm ilə başlaya bilməz.Amma ilk hərfdən sonra istifadə edə bilərik.
+// 6.Dəyişkən adları böyük-kiçik hərflərə həssasdır.
 // 7.Eyni dəyişkənə iki fərqli məlumat tanımlanan zaman sonuncu tanımlanan məlumatı göstərir.
 // 8.JavaScript tərəfindən hazırlanmış rezerv kəlimələri dəyişkən adlarına vermək qadağandır.
 // 9.Eyni dəyişkən adını dəişkən ifadələrində istifadə etmək qadağandır.
